@@ -1,4 +1,4 @@
-package thread;
+package thread.day01;
 
 public class MyThread extends Thread{
     Printer printer;

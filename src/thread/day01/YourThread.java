@@ -1,4 +1,4 @@
-package thread;
+package thread.day01;
 
 public class YourThread extends Thread{
     Printer printer;
@@ -9,11 +9,6 @@ public class YourThread extends Thread{
 
     @Override
     public void run() {
-        try {
-            Thread.sleep(50);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         printer.printDocuments(10,"Aykut Documnets");
     }
 }

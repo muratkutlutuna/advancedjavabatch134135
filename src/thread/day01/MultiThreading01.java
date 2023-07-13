@@ -1,4 +1,4 @@
-package thread;
+package thread.day01;
 
 public class MultiThreading01 {
 
@@ -49,11 +49,7 @@ public class MultiThreading01 {
         System.out.println("Total execution time is with Thread "+(appWithThreadEnd-appWithThreadStarted));
         //Total execution time is with Thread 916
 
-        try {
-            myTaskWithThread1.join();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
 
 
     }

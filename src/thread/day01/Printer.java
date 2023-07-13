@@ -1,14 +1,15 @@
-package thread;
+package thread.day01;
 
 public class Printer {
     void printDocuments(int numOfCopies, String docName) {
 
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
         for (int i = 0; i < numOfCopies; i++) {
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             System.out.println(">> Print "+docName+" "+i);
         }
     }

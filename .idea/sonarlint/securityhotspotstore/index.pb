@@ -1,10 +1,8 @@
 
-K
-advancedjavabatch134135.iml,6/8/684ea1bb600fdc69b63cc4b32dbcd345c1fbff5d
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 S
 #src/thread/day01/CreateThreads.java,4/7/47631b5618e6c151983063e458ed272ee05302f3
+V
+&src/thread/day01/MultiThreading02.java,1/9/194bbd6ad6d729d118846be632872ff874e9f815
 W
 'src/thread/day01/MyTaskWithThread1.java,a/8/a893bc20fc2eb89c242e369620773a12c6ef3550
 N
@@ -17,8 +15,6 @@ M
 src/thread/day01/MyTask1.java,b/1/b1792f70981af062ff4f46539987de0a20abc215
 P
  src/thread/day01/YourThread.java,b/a/ba4f23ecbb82d63885d919a816e8991043e49e25
-V
-&src/thread/day01/MultiThreading02.java,1/9/194bbd6ad6d729d118846be632872ff874e9f815
 V
 &src/thread/day02/MultiThreading03.java,b/3/b339d15763ebd632bd3892133ce2345e5310b7be
 V
