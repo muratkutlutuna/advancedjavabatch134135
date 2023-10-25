@@ -7,11 +7,14 @@ public class ThreadCreation2 {
      */
     public static void main(String[] args) {
 
-        CounterB thread1 = new CounterB("RadRunner");
-        CounterB thread2 = new CounterB("SpeedyGonzales");
+        CounterB counter1 = new CounterB("RadRunner");
+        CounterB counter2 = new CounterB("SpeedyGonzales");
 
-        thread1.run();
-        thread2.run();
+        Thread thread1 = new Thread(counter1);
+        Thread thread2 = new Thread(counter2);
+
+        thread1.start();
+        thread2.start();
 
 
     }
